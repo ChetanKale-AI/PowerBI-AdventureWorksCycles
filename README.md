@@ -12,7 +12,7 @@ The challenge lies in efficiently connecting, shaping, and modeling this data, f
 
 ### 🚀 Key Features 
 
-- __1 : Data Connection & Transformation__
+- __1 : Data Connection & Transformation__  
 Automated Data Pipelines: Seamlessly connected to various data sources.  
 Data Cleansing: Transformed raw data using Power Query to ensure accuracy.  
 Advanced Shaping: Utilized techniques like pivoting, unpivoting, and merging to prepare data for analysis.
@@ -29,7 +29,7 @@ Snap of new calculated column ,
 ![Snap_1](https://github.com/user-attachments/assets/fe308cd3-1aec-4942-9c12-daa48a648293)
 
 
-- __2 :Building the Data Model__
+- __2 :Building the Data Model__  
 Star Schema Design: Created a robust relational model with fact and dimension tables.  
 Relationship Management: Established primary and foreign key relationships to maintain data integrity.  
 Optimized Filtering: Leveraged bi-directional filters and calculated columns to enhance data exploration. 
@@ -38,7 +38,7 @@ Snap of model view ,
 
 ![Snap_1](https://github.com/user-attachments/assets/53aff335-2fb9-44ed-b2be-daece254e600)
 
-- __3 : DAX-Driven Insights__
+- __3 : DAX-Driven Insights__  
 Custom Calculations: Developed calculated columns and measures with DAX for deeper insights.  
 Time Intelligence: Implemented time-based functions to analyze historical trends and forecast future performance.  
 Advanced DAX Functions: Used tools like CALCULATE, FILTER, and iterators to derive meaningful metrics.  
@@ -51,7 +51,7 @@ For calculating weekend orders following DAX expression was written;
         'Calendar Lookup'[Weekend] = "Weekend" 
         )  
 
-- __4 : Interactive Data Visualization__
+- __4 : Interactive Data Visualization__  
 User-Centric Design: Crafted an intuitive dashboard layout for easy navigation and exploration.  
 Dynamic Reports: Enhanced interactivity with slicers, bookmarks, and drillthrough options.  
 Custom Visuals: Incorporated unique visuals to represent data effectively and engage users.  
